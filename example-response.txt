@@ -1,0 +1,351 @@
+D:\project\python\taopages\venv\Scripts\python.exe D:/project/python/taopages/whtepage_requests.py
+response url is : https://proapi.whitepages.com/3.0/location?city=Charlotte&api_key=7277d73b4f0542769bb79eb1ab25c676&street_line_1=5912+cactus+valley&postal_code=28277&state_code=NC
+{
+    "associated_addresses": [
+        {
+            "city": "Charlotte",
+            "country_code": "US",
+            "current_residents": [
+                {
+                    "age_range": "45-49",
+                    "associated_people": [
+                        {
+                            "firstname": "Aichun",
+                            "id": "Person.ec36f19c-f737-4a8a-ad1c-b8fe32b0a0df",
+                            "lastname": "Li",
+                            "middlename": null,
+                            "name": "Aichun Li",
+                            "relation": "Spouse"
+                        }
+                    ],
+                    "firstname": "Jianbin",
+                    "gender": "Female",
+                    "historical_addresses": [
+                        {
+                            "city": "Winston Salem",
+                            "country_code": "US",
+                            "delivery_point": "SingleUnit",
+                            "id": "Location.81bb893d-6f8e-44f4-a35b-42474751171e",
+                            "is_active": true,
+                            "lat_long": {
+                                "accuracy": "RoofTop",
+                                "latitude": 36.1398277282715,
+                                "longitude": -80.2811660766602
+                            },
+                            "link_to_person_end_date": "2004-07-01",
+                            "link_to_person_start_date": "1999-06-01",
+                            "location_type": "Address",
+                            "postal_code": "27106",
+                            "state_code": "NC",
+                            "street_line_1": "1141 Polo Rd Apt B",
+                            "street_line_2": null,
+                            "zip4": "3923"
+                        },
+                        {
+                            "city": "Winston Salem",
+                            "country_code": "US",
+                            "delivery_point": null,
+                            "id": "Location.ce326e66-8fd1-4f64-b309-505d4b424dfb",
+                            "is_active": null,
+                            "lat_long": {
+                                "accuracy": "RoofTop",
+                                "latitude": 36.139096,
+                                "longitude": -80.281333
+                            },
+                            "link_to_person_end_date": "1999-08-01",
+                            "link_to_person_start_date": "2017-10-11",
+                            "location_type": "Address",
+                            "postal_code": "27106",
+                            "state_code": "NC",
+                            "street_line_1": "1141b Polo Rd Apt B",
+                            "street_line_2": null,
+                            "zip4": "3923"
+                        }
+                    ],
+                    "id": "Person.31922222-c9eb-41bc-9042-3290e1f2baff",
+                    "lastname": "Xie",
+                    "link_to_address_start_date": "2015-05-12",
+                    "middlename": null,
+                    "name": "Jianbin Xie",
+                    "phones": [],
+                    "type": "Person"
+                }
+            ],
+            "delivery_point": null,
+            "id": "Location.a70c01e7-e92d-4174-aa4b-318d2d5ce6f1",
+            "is_active": null,
+            "is_commercial": false,
+            "is_forwarder": false,
+            "is_valid": true,
+            "last_sale_date": null,
+            "lat_long": {
+                "accuracy": "RoofTop",
+                "latitude": 35.056965,
+                "longitude": -80.784654
+            },
+            "owners": [],
+            "postal_code": "28277",
+            "state_code": "NC",
+            "street_line_1": "5912 Cactus Valley Rd # 202",
+            "street_line_2": null,
+            "total_value": null,
+            "zip4": "3620"
+        }
+    ],
+    "city": "Charlotte",
+    "country_code": "US",
+    "current_residents": [
+        {
+            "age_range": "45-49",
+            "associated_people": [
+                {
+                    "firstname": "Aichun",
+                    "id": "Person.ec36f19c-f737-4a8a-ad1c-b8fe32b0a0df",
+                    "lastname": "Li",
+                    "middlename": null,
+                    "name": "Aichun Li",
+                    "relation": "Spouse"
+                }
+            ],
+            "firstname": "Jianbin",
+            "gender": "Female",
+            "historical_addresses": [
+                {
+                    "city": "Winston Salem",
+                    "country_code": "US",
+                    "delivery_point": "SingleUnit",
+                    "id": "Location.81bb893d-6f8e-44f4-a35b-42474751171e",
+                    "is_active": true,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 36.1398277282715,
+                        "longitude": -80.2811660766602
+                    },
+                    "link_to_person_end_date": "2004-07-01",
+                    "link_to_person_start_date": "1999-06-01",
+                    "location_type": "Address",
+                    "postal_code": "27106",
+                    "state_code": "NC",
+                    "street_line_1": "1141 Polo Rd Apt B",
+                    "street_line_2": null,
+                    "zip4": "3923"
+                },
+                {
+                    "city": "Winston Salem",
+                    "country_code": "US",
+                    "delivery_point": null,
+                    "id": "Location.ce326e66-8fd1-4f64-b309-505d4b424dfb",
+                    "is_active": null,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 36.139096,
+                        "longitude": -80.281333
+                    },
+                    "link_to_person_end_date": "1999-08-01",
+                    "link_to_person_start_date": "2017-10-11",
+                    "location_type": "Address",
+                    "postal_code": "27106",
+                    "state_code": "NC",
+                    "street_line_1": "1141b Polo Rd Apt B",
+                    "street_line_2": null,
+                    "zip4": "3923"
+                }
+            ],
+            "id": "Person.31922222-c9eb-41bc-9042-3290e1f2baff",
+            "lastname": "Xie",
+            "link_to_address_start_date": "2006-01-01",
+            "middlename": null,
+            "name": "Jianbin Xie",
+            "phones": [],
+            "type": "Person"
+        },
+        {
+            "age_range": null,
+            "associated_people": [],
+            "firstname": "Angela",
+            "gender": "Female",
+            "historical_addresses": [],
+            "id": "Person.7ce740d8-1ec2-4c34-a8a8-326f22de7d08",
+            "lastname": "Li",
+            "link_to_address_start_date": "2006-07-01",
+            "middlename": null,
+            "name": "Angela Li",
+            "phones": [],
+            "type": "Person"
+        },
+        {
+            "age_range": "45-49",
+            "associated_people": [
+                {
+                    "firstname": "Jianbin",
+                    "id": "Person.31922222-c9eb-41bc-9042-3290e1f2baff",
+                    "lastname": "Xie",
+                    "middlename": null,
+                    "name": "Jianbin Xie",
+                    "relation": "Spouse"
+                }
+            ],
+            "firstname": "Aichun",
+            "gender": "Female",
+            "historical_addresses": [
+                {
+                    "city": "Cornelius",
+                    "country_code": "US",
+                    "delivery_point": "MultiUnit",
+                    "id": "Location.5503efb8-bc0c-4585-a0a2-8d1b9483030d",
+                    "is_active": true,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 35.489173,
+                        "longitude": -80.87195
+                    },
+                    "link_to_person_end_date": "2006-08-01",
+                    "link_to_person_start_date": "2006-04-01",
+                    "location_type": "Address",
+                    "postal_code": "28031",
+                    "state_code": "NC",
+                    "street_line_1": "20511 Sterling Bay Ln W Apt G",
+                    "street_line_2": null,
+                    "zip4": "4935"
+                },
+                {
+                    "city": "Charlotte",
+                    "country_code": "US",
+                    "delivery_point": "MultiUnit",
+                    "id": "Location.8de8c553-9848-4462-8d13-7aaaaa5db59c",
+                    "is_active": true,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 35.1459617614746,
+                        "longitude": -80.8169403076172
+                    },
+                    "link_to_person_end_date": "2004-04-01",
+                    "link_to_person_start_date": "2014-11-22",
+                    "location_type": "Address",
+                    "postal_code": "28226",
+                    "state_code": "NC",
+                    "street_line_1": "4601 Colony Rd Apt G",
+                    "street_line_2": null,
+                    "zip4": "4846"
+                },
+                {
+                    "city": "Winston Salem",
+                    "country_code": "US",
+                    "delivery_point": "SingleUnit",
+                    "id": "Location.81bb893d-6f8e-44f4-a35b-42474751171e",
+                    "is_active": true,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 36.1398277282715,
+                        "longitude": -80.2811660766602
+                    },
+                    "link_to_person_end_date": "2008-01-01",
+                    "link_to_person_start_date": "1998-10-01",
+                    "location_type": "Address",
+                    "postal_code": "27106",
+                    "state_code": "NC",
+                    "street_line_1": "1141 Polo Rd Apt B",
+                    "street_line_2": null,
+                    "zip4": "3923"
+                },
+                {
+                    "city": "Cornelius",
+                    "country_code": "US",
+                    "delivery_point": null,
+                    "id": "Location.c938f6d6-632d-43cc-915a-87d3583c9190",
+                    "is_active": null,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 35.489173,
+                        "longitude": -80.87195
+                    },
+                    "link_to_person_end_date": "2004-05-01",
+                    "link_to_person_start_date": "2017-03-29",
+                    "location_type": "Address",
+                    "postal_code": "28031",
+                    "state_code": "NC",
+                    "street_line_1": "20511 Sterling Bay Ln W",
+                    "street_line_2": null,
+                    "zip4": "4934"
+                },
+                {
+                    "city": "Charlotte",
+                    "country_code": "US",
+                    "delivery_point": "MultiUnit",
+                    "id": "Location.3da05c78-5f63-4242-b147-083396d1460a",
+                    "is_active": true,
+                    "lat_long": {
+                        "accuracy": "RoofTop",
+                        "latitude": 35.125577,
+                        "longitude": -80.833622
+                    },
+                    "link_to_person_end_date": "2006-01-01",
+                    "link_to_person_start_date": "2005-09-01",
+                    "location_type": "Address",
+                    "postal_code": "28210",
+                    "state_code": "NC",
+                    "street_line_1": "6522 Quail Hollow Rd Apt 3d",
+                    "street_line_2": null,
+                    "zip4": "1372"
+                }
+            ],
+            "id": "Person.ec36f19c-f737-4a8a-ad1c-b8fe32b0a0df",
+            "lastname": "Li",
+            "link_to_address_start_date": "2006-07-01",
+            "middlename": null,
+            "name": "Aichun Li",
+            "phones": [
+                {
+                    "id": "Phone.a2896fef-a2e1-4b08-cfe3-bc7128b7483c",
+                    "line_type": "Landline",
+                    "phone_number": "+17048417604"
+                }
+            ],
+            "type": "Person"
+        }
+    ],
+    "delivery_point": "SingleUnit",
+    "error": null,
+    "id": "Location.23634bf0-4ada-4159-a591-eb798e5a2e6e",
+    "is_active": true,
+    "is_commercial": false,
+    "is_forwarder": false,
+    "is_valid": true,
+    "last_sale_date": "2007-02-12",
+    "lat_long": {
+        "accuracy": "RoofTop",
+        "latitude": 35.0572738647461,
+        "longitude": -80.7849960327148
+    },
+    "owners": [
+        {
+            "age_range": "45-49",
+            "firstname": "Aichun",
+            "gender": "Female",
+            "id": "Person.ec36f19c-f737-4a8a-ad1c-b8fe32b0a0df",
+            "lastname": "Li",
+            "middlename": null,
+            "name": "Aichun Li",
+            "type": "Person"
+        },
+        {
+            "age_range": "45-49",
+            "firstname": "Jianbin",
+            "gender": "Female",
+            "id": "Person.31922222-c9eb-41bc-9042-3290e1f2baff",
+            "lastname": "Xie",
+            "middlename": null,
+            "name": "Jianbin Xie",
+            "type": "Person"
+        }
+    ],
+    "postal_code": "28277",
+    "state_code": "NC",
+    "street_line_1": "5912 Cactus Valley Rd",
+    "street_line_2": null,
+    "total_value": 277400,
+    "warnings": [],
+    "zip4": "3620"
+}
+
+Process finished with exit code 0
